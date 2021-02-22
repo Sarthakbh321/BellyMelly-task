@@ -5,6 +5,9 @@ import App from "./App";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 
 const theme = createMuiTheme({
+	typography: {
+		fontFamily: "Nunito",
+	},
 	palette: {
 		primary: {
 			main: "#2242A4",

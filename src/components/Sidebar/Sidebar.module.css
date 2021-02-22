@@ -1,0 +1,18 @@
+.menu_item {
+	width: 90%;
+	height: 45px;
+	margin: 10px 0;
+	padding: 2% 5%;
+	display: flex;
+	align-items: center;
+	color: #DDE1E5;
+	border-radius: 6px;
+}
+
+.menu_item.active {
+	background-color: #3855AD;
+}
+
+.menu_icon {
+	margin-right: 10px;
+}
