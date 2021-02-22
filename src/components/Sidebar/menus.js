@@ -42,6 +42,7 @@ export const menus = [
 				className={styles.menu_icon}
 			/>
 		),
+		active: true,
 	},
 	{
 		name: "Schedule",

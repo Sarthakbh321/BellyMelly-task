@@ -1,12 +1,22 @@
+.sidemenu {
+	margin-top: 30%;
+}
+
 .menu_item {
 	width: 90%;
 	height: 45px;
 	margin: 10px 0;
-	padding: 2% 5%;
+	padding: 1% 4%;
 	display: flex;
 	align-items: center;
 	color: #DDE1E5;
 	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu_item:hover {
+	background-color: #3855AD;
 }
 
 .menu_item.active {
