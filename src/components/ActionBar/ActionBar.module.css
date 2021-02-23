@@ -1,0 +1,13 @@
+.action_bar {
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	padding: 2% 5% !important;
+}
+
+.action_btn_div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 30%;
+}

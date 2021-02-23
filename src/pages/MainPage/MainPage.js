@@ -1,5 +1,6 @@
 import { Divider, Grid, Hidden } from "@material-ui/core";
 import React from "react";
+import ActionBar from "../../components/ActionBar/ActionBar";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Topbar from "../../components/Topbar/Topbar";
 import styles from "./MainPage.module.css";
@@ -17,6 +18,8 @@ const MainPage = () => {
 				<Grid item sm={12} md={10}>
 					<div className={styles.main_section}>
 						<Topbar />
+						<Divider />
+						<ActionBar />
 						<Divider />
 					</div>
 				</Grid>
