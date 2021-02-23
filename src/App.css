@@ -5,3 +5,16 @@
 	height: 36px !important;
 	margin-right: 5%;
 }
+
+.input_field {
+	width: 100% !important;
+}
+
+.input_field .MuiOutlinedInput-root {
+	height: 38px !important;
+}
+
+.text-editor {
+	border: 1px solid #CDD3D9;
+	height: 320px !important;
+}

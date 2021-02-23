@@ -1,6 +1,9 @@
 import { Grid, Typography } from "@material-ui/core";
 import React from "react";
+import InputField from "../../InputField/InputField";
 import styles from "./BasicDetails.module.css";
+import { Editor } from "react-draft-wysiwyg";
+import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 
 const BasicDetails = () => {
 	return (
@@ -16,10 +19,26 @@ const BasicDetails = () => {
 					</Typography>
 				</Grid>
 				<Grid item sm={12} md={7}>
-					<Typography variant="body1" className={styles.field_header}>
-						Listing Name{" "}
-						<span style={{ color: "red" }}>{" * "}</span>
-					</Typography>
+					<div style={{ marginBottom: "40px" }}>
+						<Typography
+							variant="body1"
+							className={styles.field_header}
+						>
+							Listing Name{" "}
+							<span style={{ color: "red" }}>{" * "}</span>
+						</Typography>
+						<InputField placeholder="Enter listing name" />
+					</div>
+					<div style={{ marginBottom: "2%" }}>
+						<Typography
+							variant="body1"
+							className={styles.field_header}
+						>
+							Listing Description{" "}
+							<span style={{ color: "red" }}>{" * "}</span>
+						</Typography>
+						<Editor editorClassName="text-editor" />
+					</div>
 				</Grid>
 			</Grid>
 		</div>
