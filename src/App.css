@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+.search_bar .MuiOutlinedInput-root {
+	border-radius: 40px !important;
+	background-color: #F0F2F4 !important;
+	height: 36px !important;
+	margin-right: 5%;
+}
