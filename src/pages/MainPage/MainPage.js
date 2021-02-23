@@ -1,6 +1,7 @@
 import { Container, Divider, Grid, Hidden } from "@material-ui/core";
 import React from "react";
 import ActionBar from "../../components/ActionBar/ActionBar";
+import ListingForm from "../../components/FormSections/ListingForm";
 import PageTabs from "../../components/PageTabs/PageTabs";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Topbar from "../../components/Topbar/Topbar";
@@ -24,6 +25,7 @@ const MainPage = () => {
 						<Divider />
 						<Container style={{ margin: "3% 0" }}>
 							<PageTabs />
+							<ListingForm />
 						</Container>
 					</div>
 				</Grid>

@@ -1,6 +1,7 @@
 .page_tabs_div {
 	width: 100%;
 	display: flex;
+	margin-bottom: 5%;
 }
 
 .page_tab {
