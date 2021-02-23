@@ -1,5 +1,16 @@
 .field_header {
-	font-weight: bold;
+	font-weight: bold !important;
 	color: #484F56;
 	margin-bottom: 10px;
+}
+
+.dropzone {
+	height: 172px;
+	margin-top: 10px;
+	text-align: center;
+	border: 2px dashed #CDD3D9;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
