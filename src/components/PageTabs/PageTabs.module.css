@@ -1,0 +1,28 @@
+.page_tabs_div {
+	width: 100%;
+	display: flex;
+}
+
+.page_tab {
+	background-color: #F0F2F4;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 57px;
+	border: 1px solid #CDD3D9;
+	cursor: pointer;
+}
+
+.page_tab:hover {
+	background-color: #e4e5e6;
+}
+
+.page_tab.active {
+	background-color: #2242A4;
+	color: white;
+}
+
+.page_tab.active:hover {
+	background-color: #002aa7;
+}

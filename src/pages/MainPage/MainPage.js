@@ -1,6 +1,7 @@
-import { Divider, Grid, Hidden } from "@material-ui/core";
+import { Container, Divider, Grid, Hidden } from "@material-ui/core";
 import React from "react";
 import ActionBar from "../../components/ActionBar/ActionBar";
+import PageTabs from "../../components/PageTabs/PageTabs";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Topbar from "../../components/Topbar/Topbar";
 import styles from "./MainPage.module.css";
@@ -21,6 +22,9 @@ const MainPage = () => {
 						<Divider />
 						<ActionBar />
 						<Divider />
+						<Container style={{ margin: "3% 0" }}>
+							<PageTabs />
+						</Container>
 					</div>
 				</Grid>
 			</Grid>

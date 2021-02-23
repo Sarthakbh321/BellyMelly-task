@@ -4,6 +4,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #2242A4;
+	font-family: "Nunito", sans-serif;
 }
 
 code {
