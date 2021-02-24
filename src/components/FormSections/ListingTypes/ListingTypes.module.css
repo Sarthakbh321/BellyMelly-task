@@ -1,0 +1,15 @@
+.field_header {
+	font-weight: bold !important;
+	color: #484F56;
+	margin-bottom: 10px;
+}
+
+.listing_types_div {
+	padding: 5% 0;
+}
+
+.radio_option {
+	border: 1px solid #CDD3D9 !important;
+	padding: 4%;
+	min-height: 100px !important;
+}

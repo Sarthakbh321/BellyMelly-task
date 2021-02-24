@@ -1,5 +1,5 @@
 import { Container, Typography } from "@material-ui/core";
-import { SaveAlt, VisibilityOutlined } from "@material-ui/icons";
+import { Done, SaveAlt, VisibilityOutlined } from "@material-ui/icons";
 import React from "react";
 import ActionButton from "../ActionButton/ActionButton";
 import styles from "./ActionBar.module.css";
@@ -24,7 +24,7 @@ const ActionBar = () => {
 				/>
 				<ActionButton
 					text="Publish"
-					icon={<SaveAlt style={{ fill: "white" }} />}
+					icon={<Done style={{ fill: "white" }} />}
 					primary
 				/>
 			</div>

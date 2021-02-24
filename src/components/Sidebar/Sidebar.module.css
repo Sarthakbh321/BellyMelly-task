@@ -1,5 +1,7 @@
 .sidemenu {
 	margin-top: 30%;
+	position: sticky;
+	top: 10px;
 }
 
 .menu_item {
