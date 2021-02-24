@@ -1,6 +1,6 @@
 # BellyMelly Frontend Task
 
-This is the assignment website for the Frontend Internship at BellyMelly.
+This is the assignment website for the Frontend Internship at BellyMelly. It is completely responsive.
 
 ## Tech stack used
 
