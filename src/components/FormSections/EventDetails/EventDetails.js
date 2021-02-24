@@ -48,9 +48,9 @@ const EventDetails = () => {
 									variant="body1"
 									className={styles.field_header}
 								>
-									Day of event{" "}
+									Day of Event{" "}
 								</Typography>
-								<InputField placeholder="(change)" />
+								<InputField placeholder="Select date" />
 							</Grid>
 						</Grid>
 					</div>
