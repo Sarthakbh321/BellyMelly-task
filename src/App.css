@@ -17,4 +17,5 @@
 .text-editor {
 	border: 1px solid #CDD3D9;
 	height: 320px !important;
+	border-radius: 4px;
 }
